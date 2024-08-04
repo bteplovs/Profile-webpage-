@@ -1,0 +1,88 @@
+main{
+    margin-left: 150px;
+}
+
+
+img{
+    width: 170px;
+    height: auto;
+    border-radius: 100%;
+    flex-shrink: 0;
+    justify-content: center;
+    margin-left: 190px;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1e385a;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: "Roboto Mono";
+    font-size: 170%;
+    color:#b0d2e9;
+}
+
+#Hi{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 0%;
+    font-size: 9px;
+    font-family: "press Start 2P";
+    color: #4AF626;
+}
+
+#Text{
+    line-height: 1.6;
+    font-family: "Roboto Mono";
+    color:#b0d2e9;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #4AF626;
+}
+
+a:hover{
+    color:#b0d2e9;
+    text-decoration: underline;
+}
+
+#cantLink{
+    font-family: "press Start 2P";
+    font-size: 10px;
+    color: #4AF626;
+}
+
+i{
+    margin-top: 30px;
+    width: 195px;
+    height: auto;
+    margin-right: 3px;
+    color: #4AF626;
+    font-size: 50px;
+}
+
+i:hover{
+    color:#b0d2e9;
+}
+
+#Footer{
+    word-spacing: 136px;
+    margin-right: 210px;
+    font-size: 9px;
+    color: #b0d2e9;
+    font-family: "press Start 2P";
+}
